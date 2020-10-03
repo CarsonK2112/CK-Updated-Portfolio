@@ -1,0 +1,53 @@
+body {
+    background-color:  #ebebe0;
+  }
+
+.card {
+
+  margin-bottom:20px;
+
+}
+
+p {
+  margin-bottom: 8rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.paragraph {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  color: #00cc7a;
+}
+
+.navbar-brand {
+
+  margin-left: 2.5rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #ebebe0;
+  }
+
+.portfolio {
+
+  background-color: white;
+  max-width: 800px;
+  margin-bottom: 30px;
+
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .card-text {
+
+    font-size: 0.5rem;
+
+  }
+  /* flex-direction: row; */
+  /* for the nav */
+  /* Change flex flow in Nav to column */
+  /* Put portfolio images in columns that collapse at sm to get them top to bottom */
+  /* Try col-m6 */
+}
+
+
